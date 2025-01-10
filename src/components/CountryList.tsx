@@ -39,6 +39,7 @@ const CountryList = () => {
           flag={country.flags.svg}
           region={country.region}
           population={country.population}
+          
         />
       ))}
     </SimpleGrid>

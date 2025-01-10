@@ -62,7 +62,14 @@ const CountryDetails = () => {
   return (
     <VStack gap={4} align="stretch">
       <Box textAlign="center">
-        <Image src={country.flag} alt={`${country.name} flag`} boxSize="300px" />
+        <Image 
+          src={country.flag} 
+          alt={`${country.name} flag`} 
+          width="400px" 
+          height="250px" 
+          objectFit="cover" 
+          border="1px solid black"
+        />
         <Text fontSize="2xl" fontWeight="bold">
           {country.name}
         </Text>
